@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  background-color: #333;
+  color: #fafafa;
+  font-family: sans-serif;
+}
+
+.hero {
+  background-color: #0e8bff;
+  text-align: center;
+  padding: 60px 20px;
+  margin-bottom: 20px;
+}
+
+.projects-section {
+  padding: 10px 20px;
+}
+
+.project {
+  display: inline-block;
+  padding: 7px;
+  margin-right: 5px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background-color: #222;
+}
+
+.project img {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.project .date {
+  margin-top: 5px;
+  color: #ddd;
+  font-size: 12px;
+  text-align: right;
+}
+
+@media screen and (max-width: 480px) {
+  .projects-section {
+    text-align: center;
+  }
+  .project {
+    margin-bottom: 10px;
+    text-align: initial;
+  }
+}
